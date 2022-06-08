@@ -1,0 +1,33 @@
+volume .005
+disco
+disconnect
+map 
+map ztndm3
+pr_dumpplatform -O csdefs -Tcs
+map ztndm3
+crosshair
+crosshair 0
+crosshair 1
+crosshairimage
+crosshairimage 2
+crosshairimage 3
+crosshairimage 1
+crosshairimage 0
++attack
+-attack
+quit
+map ztndm3
+"
+
+disconnect
+map ztndm3
+"
+quit
+map ztndm3
+quit
+
++attack2
+/-attack2
+bind p +attack2
+map ztndm3
+quit

@@ -1,0 +1,257 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "fteplug_hl2.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"TARGET_LINK_LIBRARIES",
+			"SET_TARGET_PROPERTIES",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1281,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1291,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1290,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wstrict-prototypes -Wold-style-definition -Wold-style-declaration -Wpointer-arith -Wvla -Wdeclaration-after-statement -Wformat-truncation=1 -march=native -O3 -Wl,--warn-common -D_FILE_OFFSET_BITS=64 -O3 -DNDEBUG -flto -fno-fat-lto-objects -fPIC -fvisibility=hidden"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "AUDIO_ALSA"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AUDIO_PULSE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AVAIL_BZLIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BZLIB_STATIC"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CONFIG_FILE_NAME=/home/od/fteqw-code/engine/common/config_fteqw.h"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "FTEPLUGIN"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GLQUAKE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIBFREETYPE_STATIC"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIBJPEG_STATIC"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIBPNG_STATIC"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "MULTITHREAD"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ZLIB_STATIC"
+				},
+				{
+					"define" : "plug_hl2_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/od/fteqw-code/engine/common"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/od/fteqw-code/engine/client"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/od/fteqw-code/engine/qclib"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/od/fteqw-code/engine/gl"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/od/fteqw-code/engine/server"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/od/fteqw-code/engine"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/usr/include/freetype2"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"id" : "plug_hl2::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lz",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C",
+		"lto" : true
+	},
+	"name" : "plug_hl2",
+	"nameOnDisk" : "fteplug_hl2.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "plugins/plugin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "plugins/hl2/hl2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "plugins/hl2/fs_vpk.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "plugins/hl2/img_vtf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "plugins/hl2/mod_hl2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "plugins/hl2/mod_vbsp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "plugins/hl2/mat_vmt.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

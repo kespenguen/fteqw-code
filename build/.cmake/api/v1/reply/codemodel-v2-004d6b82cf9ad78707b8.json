@@ -1,0 +1,205 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d41c175b041c19a7dc32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FTEQuake",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ftemaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ftemaster-Release-50fdecaed105eb9e084b.json",
+					"name" : "ftemaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fteqcc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fteqcc-Release-3d5fc2f76b37c8b10dfa.json",
+					"name" : "fteqcc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fteqw::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fteqw-Release-3c675e10f28615cb6bf8.json",
+					"name" : "fteqw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fteqw-sv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fteqw-sv-Release-fe484df588a191cadc4a.json",
+					"name" : "fteqw-sv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "httpserver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-httpserver-Release-75f66db3cba7ae154624.json",
+					"name" : "httpserver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imgtool::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imgtool-Release-9dae5bff49be24b0ab1c.json",
+					"name" : "imgtool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "iqmtool::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-iqmtool-Release-84dfcd3634e702a0932f.json",
+					"name" : "iqmtool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "menusys::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-menusys-Release-f36d93d62fb9fc491e3c.json",
+					"name" : "menusys",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plug_ezhud::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plug_ezhud-Release-24916d0194df00644434.json",
+					"name" : "plug_ezhud",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plug_ffmpeg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plug_ffmpeg-Release-b9b693ffe41952a5a877.json",
+					"name" : "plug_ffmpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plug_hl2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plug_hl2-Release-85525adf6d8ae0181a33.json",
+					"name" : "plug_hl2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plug_irc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plug_irc-Release-fa9a75f2269844eff46c.json",
+					"name" : "plug_irc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plug_models::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plug_models-Release-6206dcc8123d1f4ef4d1.json",
+					"name" : "plug_models",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plug_qi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plug_qi-Release-29fd89eb504a53c586ed.json",
+					"name" : "plug_qi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plug_quake3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plug_quake3-Release-c3a7a1d9fdf1738b5f1d.json",
+					"name" : "plug_quake3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plug_xmpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plug_xmpp-Release-12e7deb07d350b7e2f84.json",
+					"name" : "plug_xmpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qtv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qtv-Release-6f7c08edd044e7283f86.json",
+					"name" : "qtv",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/od/fteqw-code/build",
+		"source" : "/home/od/fteqw-code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
